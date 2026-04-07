@@ -1,0 +1,31 @@
+.q{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Times New Roman', Times, serif;
+    flex-wrap: wrap;
+}
+
+i{
+    align-self: center;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+i:hover{
+    scale: 1.5;
+}
+
+.a{
+    visibility: hidden;
+}
+
+hr{
+    
+}
