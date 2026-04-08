@@ -7,6 +7,7 @@
 
 i{
     align-self: center;
+    transition: transform 0.3s ease;
 }
 
 main{
@@ -23,9 +24,19 @@ i:hover{
 }
 
 .a{
-    visibility: hidden;
+    height:0;
+    overflow: hidden;
+    transition: height 0.3s ease;
+}
+
+.a.open{
+    height: auto;
 }
 
 hr{
     
+}
+
+i.rotate{
+    transform: rotate(180deg);
 }
